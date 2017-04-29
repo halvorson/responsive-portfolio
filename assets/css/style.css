@@ -1,0 +1,219 @@
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: #efeee7;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-color: #333333;
+		font-size: 18px;
+		line-height: 150%;
+		color: #777777;
+		background-image: url("../images/topo-background.png");
+		background-color: #eeeeee;
+	}
+
+	header {
+		overflow: auto;
+		background-color: #ffffff;
+		border-bottom: solid;
+		border-bottom-width: 3px;
+		border-bottom-color: #ccc;
+		margin-bottom: 20px;
+	}
+
+	footer {
+		overflow: auto;
+		background-color: #666666;
+		width: 100%;
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		z-index: 3;
+	}
+
+	h1 {
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		font-size: 28px;
+		color: #eee;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		padding: 15px 0 20px;
+		font-size: 28px;
+		text-align: left;
+		color: #4aaaa5;
+		border-bottom: solid;
+		border-bottom-color: #ccc;
+		border-bottom-width: 4px;
+	}
+
+	h3 {
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		padding: 15px 0;
+		text-align: left;
+		color: #4aaaa5;
+		border-bottom: solid;
+		border-bottom-color: #ccc;
+		border-bottom-width: 3px;
+	}
+
+	p {
+		margin: 0px;
+	}
+
+	.footer-container {
+		width: 960px;
+		margin: 0px auto;
+		height: 60px;
+	}
+
+	.footer-text {
+		text-align: center;
+		color: white;
+		width: 100%;
+		margin: 20px auto 0px;
+		float: left;
+	}
+
+	.container {
+		width: 960px;
+		margin: 0 auto 80px;
+		overflow: auto;
+	}
+	
+	.portfolio-row {
+		margin-top: 30px;
+		width: 100%;
+		overflow: auto;
+	}
+
+	.portfolio-item {
+		width: 280px;
+		overflow: auto;
+		height: 250px;
+		background-color: #ccc;
+	}
+
+	.portfolio-photo {
+		position: absolute;
+		overflow: auto;
+		z-index: 1;
+	}
+
+	.pleft {
+		float: left;
+	}
+
+
+	.pright {
+		float: right;
+	}
+
+	.portfolio-label {
+		position: relative;
+		top: 190px;
+		width: 280px;
+		padding: 10px 0px;
+		background-color: #4aaaa5;
+		z-index: 2;
+		text-align: center;
+		color: white;
+	}
+
+	.main-section {
+		width: 650px;
+		float: left;
+		overflow: auto;
+		background-color: #ffffff;
+		border-color: #dddddd;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	.sidebar {
+		width: 270px;
+		float: right;
+		overflow: auto;
+		background-color: #ffffff;
+		border-color: #dddddd;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	.social-links {
+		margin: auto;
+		overflow: auto;
+	}
+
+	.social-link {
+		height: 50px;
+		width: 50px;
+	}
+
+	.content-nest{
+		margin: 20px;
+		overflow: auto; 
+		padding: auto;
+	}
+	
+	.header-container {
+		width: 960px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+
+	#name {
+		background-color: #4aaaa5;
+		float: left;
+		height: 60px;
+		padding: 10px 20px;
+	}
+
+	#navBar {
+		float: right;
+		padding-top: 30px;
+		color: #ccc;
+	}
+
+	#navBar a {
+		color: #ccc;
+		text-decoration: none;
+		overflow: auto;
+	}
+
+	#bio-image {
+		float: left;
+		margin-right: 20px;
+	}
+
+	#contact-me {
+	}
+
+	#contact-me input[type=submit] {
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		background-color: #4aaaa5;
+		border: none;
+		color: #eee;
+		padding: 10px 30px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	#contact-me input[type=text], input[type=email] {
+		width: calc(100% - 16px);
+		padding: 6px;
+		margin-bottom: 10px;
+	}
+
+	#contact-me textarea {
+		width: calc(100% - 14px);
+		padding: 6px;
+		height: 100px;
+		border: solid;
+		border-width: 1px;
+		border-color: #ccc;
+		margin-bottom: 10px;
+	}
