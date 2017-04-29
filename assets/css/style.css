@@ -90,6 +90,7 @@
 
 	.portfolio-item {
 		width: 280px;
+		margin-bottom: 20px;
 		overflow: auto;
 		height: 250px;
 		background-color: #ccc;
@@ -97,7 +98,6 @@
 
 	.portfolio-photo {
 		position: absolute;
-		overflow: auto;
 		z-index: 1;
 	}
 
@@ -129,6 +129,7 @@
 		border-color: #dddddd;
 		border-style: solid;
 		border-width: 1px;
+		margin-bottom: 20px;
 	}
 
 	.sidebar {
@@ -216,4 +217,97 @@
 		border-width: 1px;
 		border-color: #ccc;
 		margin-bottom: 10px;
+	}
+
+	.internal-link {
+		float:right;
+	}
+
+	@media screen and (max-width: 980px) and (min-width: 769px) {
+		.main-section {
+			width: 450px;
+		}
+
+		.container, .header-container, .footer-container {
+			width: 768px;
+		}
+
+		.portfolio-item, .portfolio-label, #bio-image, .portfolio-photo, .portfolio-photo img {
+			width: 410px;
+		}
+
+		#bio-image {
+			height: 410px;
+		}
+
+		.portfolio-item, .portfolio-photo, .portfolio-photo img {
+			height: 366px;
+		}
+
+		.portfolio-label {
+			top: 280px;
+		}
+
+	}
+
+	@media screen and (max-width: 768px) and (min-width: 640px)  {
+
+		.container, .header-container, .footer-container, .sidebar {
+			width: 630px;
+		}
+
+		.portfolio-item, .portfolio-label, #bio-image, .portfolio-photo, .portfolio-photo img {
+			margin-right: 20px;
+		}
+
+		#bio-image {
+			height: 250px;
+		}
+
+		h2 {
+			width: 590px;
+		}
+	}
+
+	@media screen and (max-width: 640px) {
+		.main-section {
+			width: 560px;
+		}
+
+		.container, .header-container, .footer-container, .sidebar {
+			width: 560px;
+		}
+
+		.portfolio-item, .portfolio-label, #bio-image, .portfolio-photo, .portfolio-photo img {
+			width: 520px;
+		}
+
+		#bio-image {
+			height: 520px;
+		}
+
+		.portfolio-item, .portfolio-photo, .portfolio-photo img {
+			height: 464px;
+		}
+
+		.portfolio-label {
+			top: 360px;
+		}
+
+		#name {
+			width: 520px;
+		}
+
+		#navBar a {
+			margin: 0 52px;
+		} 
+
+		#navBar {
+			padding: 20px;
+		}
+
+		#navBar i {
+		}
+
+
 	}
