@@ -188,9 +188,6 @@
 		margin-right: 20px;
 	}
 
-	#contact-me {
-	}
-
 	#contact-me input[type=submit] {
 		font-family: 'Georgia', Times, "Times New Roman", serif;
 		background-color: #4aaaa5;
@@ -252,8 +249,15 @@
 
 	@media screen and (max-width: 768px) and (min-width: 640px)  {
 
-		.container, .header-container, .footer-container, .sidebar {
+		.container, .header-container, .footer-container {
 			width: 630px;
+		}
+
+
+
+		.main-section, .sidebar {
+			width: 610px;
+			float: left;
 		}
 
 		.portfolio-item, .portfolio-label, #bio-image, .portfolio-photo, .portfolio-photo img {
@@ -270,11 +274,12 @@
 	}
 
 	@media screen and (max-width: 640px) {
-		.main-section {
-			width: 560px;
+		.main-section, .sidebar {
+			width: 540px;
+			float: left;
 		}
 
-		.container, .header-container, .footer-container, .sidebar {
+		.container, .header-container, .footer-container {
 			width: 560px;
 		}
 
